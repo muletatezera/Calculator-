@@ -1,0 +1,46 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  background-color: rgb(211, 212, 155);
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+  align-content: center;
+}
+
+button {
+  margin: 4px;
+  padding: 3px;
+  border: none;
+  border-radius: 8px;
+}
+
+.buttons div {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 10px;
+  margin: 10px;
+  /* background-color: aqua; */
+  width: 50vw;
+  text-align: center;
+}
+.btn {
+  padding: 5px;
+}
+.btn:hover {
+  background-color: hsl(34, 57%, 90%);
+}
+.calculator {
+  width: 50vw;
+  margin: 0 auto;
+  /* height: 40vh; */
+  /* align-items: center; */
+}
+#display {
+  height: 20px;
+  border-radius: 10px;
+  border: none;
+  text-align: right;
+}
